@@ -1,0 +1,17 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/geekcode/gustavo/projects/external/marcelo/unifesp-ed2021-projeto-final'
+rm -drf obj/*
+mkdir -p obj bin obj obj/libs
+gcc -I src -c src/libs/mymath.c -o obj/libs/mymath.o 
+gcc -I src -c src/libs/matrix.c -o obj/libs/matrix.o 
+gcc -I src -c src/main.c -o obj/main.o 
+gcc -I src obj/libs/matrix.o obj/libs/mymath.o obj/main.o -o bin/program -lm
+bin/program
+make: Leaving directory '/home/geekcode/gustavo/projects/external/marcelo/unifesp-ed2021-projeto-final'
+ 
+gcc: error: Makefile.c: No such file or directory
+gcc: fatal error: no input files
+compilation terminated.
+make: *** [Makefile:24: Makefile] Error 1
+make: Failed to remake makefile 'Makefile'.
+ 

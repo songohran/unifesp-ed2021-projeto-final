@@ -1,0 +1,399 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Mon Feb  7 17:14:07 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/geekcode/gustavo/projects/external/marcelo/unifesp-ed2021-projeto-final
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/dbus-update-activation-environment
+# environment
+JOURNAL_STREAM = 9:40588
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# environment
+USERNAME = geekcode
+# makefile (from 'Makefile', line 2)
+OBJ_DIR = obj
+# environment
+MAKELEVEL := 0
+# environment
+MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+LC_CTYPE = pt_BR.UTF-8
+# environment
+MANAGERPID = 1882
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-347a479b-87e7-4f35-ac95-435b9b489e5d.sock
+# environment
+LC_NAME = pt_BR.UTF-8
+# environment
+VSCODE_CWD = /home/geekcode
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/geekcode/.cargo/bin:/home/geekcode/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+SESSION_MANAGER = local/asus:@/tmp/.ICE-unix/2111,unix/asus:/tmp/.ICE-unix/2111
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=ed65bb0a-455d-4c3c-a3ea-aef3a0eb1263&iid=ed65bb0a-455d-4c3c-a3ea-aef3a0eb1263&sid=ed65bb0a-455d-4c3c-a3ea-aef3a0eb1263","uploadToServer":true}
+# environment
+INVOCATION_ID = 33de120201ad49ed9167f71ca7a441e8
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 2464
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/geekcode/gustavo/projects/external/marcelo/unifesp-ed2021-projeto-final
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 2068
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# makefile (from 'Makefile', line 1)
+SRC_DIR = src
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /home/geekcode
+# environment
+VSCODE_CODE_CACHE_PATH = /home/geekcode/.config/Code/CachedData/899d46d82c4c95423fb7e10e68eba52050e30ba3
+# environment
+LOGNAME = geekcode
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+LC_TIME = pt_BR.UTF-8
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SHLVL = 0
+# makefile (from 'Makefile', line 5)
+CC := gcc -I src
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = geekcode
+# environment
+LC_MONETARY = pt_BR.UTF-8
+# makefile
+.DEFAULT_GOAL := all
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# makefile (from 'Makefile', line 10)
+SRC_ALL_DIRS := src src/libs
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = pt_BR.UTF-8
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-5f3db860-1.63.2-main.sock
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+BREAKPAD_DUMP_LOCATION = /home/geekcode/.config/Code/exthost Crash Reports
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# environment
+LC_PAPER = pt_BR.UTF-8
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+DEFAULTS_PATH = /usr/share/gconf/ubuntu.default.path
+# 'override' directive
+.SHELLSTATUS := 0
+# default
+MAKEFILES := 
+# environment
+LC_NUMERIC = pt_BR.UTF-8
+# automatic
+<F = $(notdir $<)
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from 'Makefile', line 7)
+OUT_EXE := bin/program
+# environment
+LC_MEASUREMENT = pt_BR.UTF-8
+# makefile (from 'Makefile', line 3)
+BIN_DIR = bin
+# environment
+LC_ALL = C
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile (from 'Makefile', line 9)
+C_FILES := src/libs/mymath.h src/libs/mymath.c src/libs/matrix.h src/libs/matrix.c src/main.c
+# environment
+LC_IDENTIFICATION = pt_BR.UTF-8
+# default
+.RECIPEPREFIX := 
+# environment
+LC_ADDRESS = pt_BR.UTF-8
+# environment
+LANG = C
+# environment
+VSCODE_PID = 2464
+# makefile (from 'Makefile', line 11)
+OBJ_ALL_DIRS := obj obj/libs
+# variable set hash-table stats:
+# Load=117/1024=11%, Rehash=0, Collisions=30/164=18%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2058, inode 657643): 8 files, no impossibilities.
+
+# 8 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+%:
+#  recipe to execute (from 'Makefile', line 24):
+	@$(CC) -c $@.c -o $(patsubst $(SRC_DIR)%,$(OBJ_DIR)%,$@.o) 
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+setup:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := setup
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+ 
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/15=7%
+#  recipe to execute (from 'Makefile', line 17):
+	@rm -drf $(OBJ_DIR)/*
+	@mkdir -p $(OBJ_DIR) $(BIN_DIR) $(OBJ_ALL_DIRS)
+
+# Not a target:
+src/libs/matrix:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: setup compile build run
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
+#  recipe to execute (from 'Makefile', line 14):
+	@
+
+# Not a target:
+src/main:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Makefile:
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'Makefile'
+#  Last modified 2022-02-06 23:59:30.313964365
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 24):
+	@$(CC) -c $@.c -o $(patsubst $(SRC_DIR)%,$(OBJ_DIR)%,$@.o) 
+
+# Not a target:
+src/libs/mymath.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 27):
+	@$(CC) $(shell find $(OBJ_DIR) -type f -name "*.o") -o $(OUT_EXE) -lm
+
+# Not a target:
+src/libs/matrix.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+compile: src/libs/mymath.h src/libs/mymath src/libs/matrix.h src/libs/matrix src/main
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 21):
+	@
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+run:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 30):
+	@$(OUT_EXE)
+
+# Not a target:
+src/libs/mymath:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=13/1024=1%, Rehash=0, Collisions=0/39=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 23 / storage = 203 B / avg = 8 B
+# current buf: size = 8162 B / used = 203 B / count = 23 / avg = 8 B
+
+# strcache performance: lookups = 39 / hit rate = 41%
+# hash-table stats:
+# Load=23/8192=0%, Rehash=0, Collisions=1/39=3%
+# Finished Make data base on Mon Feb  7 17:14:07 2022
+
+ 

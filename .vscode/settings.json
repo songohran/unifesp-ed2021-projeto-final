@@ -1,0 +1,8 @@
+{
+  "files.associations": {
+    "*.rpy": "python",
+    "*.toml": "toml",
+    "float_list.h": "c",
+    "matrix.h": "c"
+  }
+}
